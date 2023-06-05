@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My restaurant with responsive design</title>
+
+<!--Css link for swiping effect-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+  <!--font awesome cdn link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+  <!--My custom styling-->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<!--Header starts here-->
+<header>
+
+  <a href="#" class="logo"><i class="fas-fa-utensils"></i>GoResto</a>
+
+  <nav class="navbar">
+    <a class="active" href="#home">home</a>
+    <a href="#dishes">dishes</a>
+    <a href="#about">about</a>
+    <a href="#menu">menu</a>
+    <a href="#review">review</a>
+    <a href="#order">order</a>
+  </nav>
+
+  <div class="icons">
+    <i class="fas fa-bars" id="menu-bars"></i>
+    <i class="fas fa-search" id="search-icons"></i>
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-shopping-cart"></a>
+  </div>
+
+</header>
+<!--Header ends here-->
+
+<!--Search box form starts here-->
+ <form action="" id="search-form">
+  <input type="search" name="" placeholder="search here"  id="search-box"/>
+  <label for="search-box" class="fas fa-search" ></label>
+ </form>
+<!--Search box form ends here-->
+
+<!--Home sections starts here-->
+<section class="home" id="#home">
+
+ <div class="swiper-container home-slider">
+
+  <div class="swiper-wrapper wrapper">
+
+    <div class="swiper-slide slide">
+      <div class="content">
+        <span> Our Special Dish</span>
+        <h3>Abacha with fried fish and peppered kpomo</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel iure cumque ?</p>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+      <div class="images">
+      <img src="food images/Abacha with fried fish and peppered kpomo.jpeg" alt="images">
+    </div>
+  </div>
+
+    <div class="swiper-slide slide">
+      <div class="content">
+        <span> Our Special Dish</span>
+        <h3>Afang Soup</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel iure cumque ?</p>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+      <div class="images">
+      <img src="food images/afang soup.jpeg" alt="images">
+    </div>
+    </div>
+
+    <div class="swiper-slide slide">
+      <div class="content">
+        <span> Our Special Dish</span>
+        <h3>Chocolate Cake</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel iure cumque ?</p>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+      <div class="images">
+      <img src="food images/chocolate cake.jpeg" alt="images">
+    </div>
+  </div>
+
+  </div>
+
+<div class="swiper-pagination"></div>
+
+ </div>
+</section>
+
+<!--Home sections ends here-->
+
+<!--dishes section starts-->
+<section class="dishes" id="dishes">
+
+  <h3 class="sub-heading">Our Dishes</h3>
+  <h1 class="heading">Popular Dishes</h1>
+
+  <div class="box-container">
+
+<div class="box">
+  <a href="#" class="fa fa-heart"></a>
+  <a href="#" class="fa fa-eye"></a>
+  <img src="food images/coconut rice.jpeg" alt="">
+  <h3>coconut rice</h3>
+  <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+  </div>
+  <span>N4000</span>
+  <a href="#" class="btn">Add to Cart</a>
+</div>
+
+<div class="box">
+  <a href="#" class="fa fa-heart"></a>
+  <a href="#" class="fa fa-eye"></a>
+  <img src="food images/chocolate cake.jpeg" alt="">
+  <h3>chocolate cake</h3>
+  <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+  </div>
+  <span>N2500</span>
+  <a href="#" class="btn">Add to Cart</a>
+</div>
+
+<div class="box">
+  <a href="#" class="fa fa-heart"></a>
+  <a href="#" class="fa fa-eye"></a>
+  <img src="food images/Efor riro soup.jpeg" alt="">
+  <h3>Efor riro soup</h3>
+  <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+  </div>
+  <span>N3500</span>
+  <a href="#" class="btn">Add to Cart</a>
+</div>
+
+<div class="box">
+  <a href="#" class="fa fa-heart"></a>
+  <a href="#" class="fa fa-eye"></a>
+  <img src="food images/fried chiken.jpeg" alt="">
+  <h3>fried chiken</h3>
+  <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+  </div>
+  <span>N2000</span>
+  <a href="#" class="btn">Add to Cart</a>
+</div>
+
+<div class="box">
+  <a href="#" class="fa fa-heart"></a>
+  <a href="#" class="fa fa-eye"></a>
+  <img src="food images/fries and burger on plate.jpeg" alt="">
+  <h3>fries and burger on plate</h3>
+  <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+  </div>
+  <span>N3200</span>
+  <a href="#" class="btn">Add to Cart</a>
+</div>
+
+<div class="box">
+  <a href="#" class="fa fa-heart"></a>
+  <a href="#" class="fa fa-eye"></a>
+  <img src="food images/green leavy vegetables.jpeg" alt="">
+  <h3>green leavy vegetables</h3>
+  <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+  </div>
+  <span>N4000</span>
+  <a href="#" class="btn">Add to Cart</a>
+</div>
+
+<div class="box">
+  <a href="#" class="fa fa-heart"></a>
+  <a href="#" class="fa fa-eye"></a>
+  <img src="food images/Nigerian Jollof.jpeg" alt="">
+  <h3>Nigerian Jollof</h3>
+  <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+  </div>
+  <span>N2500</span>
+  <a href="#" class="btn">Add to Cart</a>
+</div>
+
+<div class="box">
+  <a href="#" class="fa fa-heart"></a>
+  <a href="#" class="fa fa-eye"></a>
+  <img src="food images/meat balls.jpeg" alt="">
+  <h3>Meat balls</h3>
+  <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+  </div>
+  <span>N3000</span>
+  <a href="#" class="btn">Add to Cart</a>
+</div>
+
+  </div>
+
+</section>
+<!--dishes section ends-->
+
+<!--About section starts here-->
+<section class="about" id="about">
+ 
+  <h3 class="sub-heading"> About Us </h3>
+  <h1 class="heading">Why Choose Us ? </h1>
+
+  <div class="row">
+
+<div class="image">
+  <img src="food images/mediterranean salad.jpeg" alt="">
+</div>
+<div class="content">
+  <h3>We Prepare the most delicious dishes </h3>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nostrum assumenda odit quos nesciunt, quae cumque sapiente, quisquam reprehenderit optio voluptates esse possimus. Modi iure magni earum, ipsam quo fugit!</p>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum repellat temporibus reprehenderit voluptate eligendi dolorum unde voluptatibus impedit provident, dolores optio aspernatur dignissimos facilis asperiores earum ullam accusamus in illo.</p>
+  <div class="icon-container">
+    <div class="icons">
+      <i class="fas fa-shipping-fast"></i>
+    <span>Free Delivery</span>
+    </div>
+
+    <div class="icons">
+      <i class="fas fa-dollar-sign"></i>
+    <span>Easy Payment</span>
+    </div>
+
+    <div class="icons">
+      <i class="fas fa-headset"></i>
+    <span>24/7 Services </span>
+    </div>
+  </div>
+  <a href="#" class="btn"> Learn More </a>
+</div>
+
+  </div>
+</section>
+<!--About section ends here-->
+
+<!--Menu section starts here-->
+<secttion class="menu" id="menu">
+
+  <h3 class="sub-heading"> Our Menu </h3>
+  <h1 class="heading">Today's Special Dishes</h1>
+
+ <div class="box-container">
+
+<div class="box">
+  <div class="image">
+  <img src="food images/ofe onugbo.jpeg" alt="">
+  <a href="#" class="fas fa-heart"></a>
+</div>
+  <div class="content">
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <h3>Ofe Onugbo</h3> 
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique tenetur iusto deleniti voluptate,</p> 
+    <a href="#" class="btn">Add to Cart</a>
+    <span class="price">N1,500</span>
+  </div>
+</div>
+
+<div class="box">
+  <div class="image">
+  <img src="food images/ofe Ura.jpeg" alt="">
+  <a href="#" class="fas fa-heart"></a>
+</div>
+  <div class="content">
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <h3>Ofe Ura</h3> 
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique tenetur iusto deleniti voluptate,</p> 
+    <a href="#" class="btn">Add to Cart</a>
+    <span class="price">N2,000</span>
+  </div>
+</div>
+
+<div class="box">
+  <div class="image">
+  <img src="food images/pancake with sliced strawberries.jpeg" alt="">
+  <a href="#" class="fas fa-heart"></a>
+</div>
+  <div class="content">
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <h3>Pancake With Sliced Strawberries</h3> 
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique tenetur iusto deleniti voluptate,</p> 
+    <a href="#" class="btn">Add to Cart</a>
+    <span class="price">N2,500</span>
+  </div>
+</div>
+
+<div class="box">
+  <div class="image">
+  <img src="food images/porridge yam with ugba.jpeg" alt="">
+  <a href="#" class="fas fa-heart"></a>
+</div>
+  <div class="content">
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <h3>Porridge Yam With Ugba</h3> 
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique tenetur iusto deleniti voluptate,</p> 
+    <a href="#" class="btn">Add to Cart</a>
+    <span class="price">$12.99</span>
+  </div>
+</div>
+
+<div class="box">
+  <div class="image">
+  <img src="food images/raspberry cake.jpeg" alt="">
+  <a href="#" class="fas fa-heart"></a>
+</div>
+  <div class="content">
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <h3>raspberry cake</h3> 
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique tenetur iusto deleniti voluptate,</p> 
+    <a href="#" class="btn">Add to Cart</a>
+    <span class="price">N3,500</span>
+  </div>
+</div>
+
+<div class="box">
+  <div class="image">
+  <img src="food images/roasted chicken.jpeg" alt="">
+  <a href="#" class="fas fa-heart"></a>
+</div>
+  <div class="content">
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <h3>Roasted Chicken</h3> 
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique tenetur iusto deleniti voluptate,</p> 
+    <a href="#" class="btn">Add to Cart</a>
+    <span class="price">N2,000</span>
+  </div>
+</div>
+
+<div class="box">
+  <div class="image">
+  <img src="food images/Sauteed food.jpeg" alt="">
+  <a href="#" class="fas fa-heart"></a>
+</div>
+  <div class="content">
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <h3>Sauteed food</h3> 
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique tenetur iusto deleniti voluptate,</p> 
+    <a href="#" class="btn">Add to Cart</a>
+    <span class="price">N3,500</span>
+  </div>
+</div>
+
+<div class="box">
+  <div class="image">
+  <img src="food images/special egusi.jpeg" alt="">
+  <a href="#" class="fas fa-heart"></a>
+</div>
+  <div class="content">
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <h3>Special Egusi</h3> 
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique tenetur iusto deleniti voluptate,</p> 
+    <a href="#" class="btn">Add to Cart</a>
+    <span class="price">N3,000</span>
+  </div>
+</div>
+
+<div class="box">
+  <div class="image">
+  <img src="food images/steamed rice with adobong pork.jpeg" alt="">
+  <a href="#" class="fas fa-heart"></a>
+</div>
+  <div class="content">
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <h3>Steamed Rice With Adobong Pork</h3> 
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique tenetur iusto deleniti voluptate,</p> 
+    <a href="#" class="btn">Add to Cart</a>
+    <span class="price">N4,000</span>
+  </div>
+</div>
+
+</div>
+</secttion>
+
+<!--Menu section ends here-->
+
+<!--Review section starts here-->
+<section class="review" id="review">
+
+  <h3 class="sub-heading"> Customer's Review</h3>
+  <h1 class="heading">What They Say</h1>
+
+  <div class="swiper-container review-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide slide">
+        <i class="fa fa-quote-right"></i>
+        <div class="user">
+          <img src="" alt="user-image">
+          <div class="user-info">
+            <h3>Stepahie Chukwuma</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+        <p>There food is original, very tasty and organic. And the neatnes of the restaurant is on another whole level. Make it your Choice. A trial will convince You.</p>
+      </div>
+
+      <div class="swiper-slide slide">
+        <i class="fa fa-quote-right"></i>
+        <div class="user">
+          <img src="" alt="user-image">
+          <div class="user-info">
+            <h3>Austin Emma</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+        <p>There food is original, very tasty and organic. And the neatnes of the restaurant is on another whole level. Make it your Choice. A trial will convince You.</p>
+      </div>
+
+      <div class="swiper-slide slide">
+        <i class="fa fa-quote-right"></i>
+        <div class="user">
+          <img src="" alt="user-image">
+          <div class="user-info">
+            <h3>Oche</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+        <p>There food is original, very tasty and organic. And the neatnes of the restaurant is on another whole level. Make it your Choice. A trial will convince You.</p>
+      </div>
+
+      <div class="swiper-slide slide">
+        <i class="fa fa-quote-right"></i>
+        <div class="user">
+          <img src="" alt="user-image">
+          <div class="user-info">
+            <h3>Ijomah Armstrong</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+        <p>There food is original, very tasty and organic. And the neatnes of the restaurant is on another whole level. Make it your Choice. A trial will convince You.</p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+
+
+<!--Review section starts here-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Javacsript for swiper-->
+<script src="https://unpkg.com/swiper-bundle.min.js"></script>
+
+<!--My custom js file link-->
+ <script src="script.js"></script> 
+</body>
+</html>
